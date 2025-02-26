@@ -4,7 +4,7 @@
 {
 	"name": "nodejs-20",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "node:20-slim",
+	"image": "codercom/enterprise-node:latest",
 	// "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
