@@ -1,0 +1,26 @@
+{
+  "name": "devcontainer-nodejs-20",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/x9gg/devcontainer-nodejs-20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/x9gg/devcontainer-nodejs-20/issues"
+  },
+  "homepage": "https://github.com/x9gg/devcontainer-nodejs-20#readme",
+  "description": "",
+  "dependencies": {
+    "@fastify/view": "^10.0.2",
+    "ejs": "^3.1.10",
+    "fastify": "^5.2.1",
+    "nodemon": "^3.1.9"
+  }
+}
