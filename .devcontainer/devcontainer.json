@@ -1,0 +1,21 @@
+
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+{
+	"name": "x9gg-devcontainer-nodejs-20",
+	// "remoteUser": "dev",
+	"image": "x9gg/image:nodejs-20",
+
+
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker",
+                "x9gg.x9gg-vscode-theme"
+			]
+		}
+	},
+	"postCreateCommand": "npm ci"
+}
