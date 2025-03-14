@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fastify!</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Node.js Container</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color: #f4f4f4;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .emoji {
+      font-size: 36px;
+      margin: 10px;
+    }
+  </style>
 </head>
-<body> 
-    <p><%= title %></p>
+<body>
+  <div class="container">
+    <h1><%= title %></h1>
+    <p>Node.js <%= nodeVersion %> • Fastify <%= fastifyVersion %></p>
+  </div>
 </body>
 </html>

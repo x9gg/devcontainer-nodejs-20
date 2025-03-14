@@ -15,7 +15,11 @@ fastify.register(fastifyView, {
 });
 
 fastify.get('/', async (request, reply) => {
-  return reply.view('index.ejs', { title: 'node works!' });
+  return reply.view('index.ejs', { 
+    title: 'Hello world, it works!',
+    nodeVersion: process.version.slice(1),
+    fastifyVersion: fastify.version
+  });
 });
 
 const start = async () => {
